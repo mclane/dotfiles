@@ -1,0 +1,16 @@
+configuration{
+    modi: "drun,window";
+    icon-theme: "Papirus";
+    font: "Meslo LGM Nerd Font 10";
+    show-icons: true;
+    terminal: "alacritty";
+    drun-display-format: "{icon} {name}";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: true;
+    display-drun: "Applications";
+    display-window: "Windows";
+    sidebar-mode: true;
+}
+
+@theme "catppuccin-mocha"
