@@ -18,6 +18,10 @@ exec --no-startup-id picom
 exec_always --no-startup-id killall polybar
 exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
 
+# remove title bar
+# default_border pixel 0
+for_window [class="^.*"] border pixel 0
+
 # start background wallpaper
 exec_always feh --bg-scale ~/.config/wallpaper/wallpaper.png
 
